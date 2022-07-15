@@ -3,8 +3,10 @@ import './App.css';
 import {BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from './Pages/Login/Login'
 import Dashboard from './Pages/Login/Dashboard'
-import Main  from './Pages/Login/Main'
+import Main  from './Pages/Login/Main/Main'
 import Register from './Pages/Login/Register'
+
+
 function App() {
   return(
 
@@ -26,7 +28,7 @@ function App() {
 
 
       </Routes>\
-
+to
         </main>
         </BrowserRouter>
     </div>
