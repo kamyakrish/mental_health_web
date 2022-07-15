@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+Meta University: Project Plan 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Problem Statement: Many people who are seeking mental health help are most of the time unsure of what kind of help they need and where they should go in order to find resources such as people they may be able to talk to near them. 
+Solution: A website that is a one stop hub in which users can take a survey personal to them and then find out how they can gain access to these resources 
 
-## Available Scripts
 
-In the project directory, you can run:
+Features
+Home page 
+Account creation page -> separate for general users and therapists 
+Login and logout option
+Survey to create user profile based on what they are seeking
+Survey to create therapists profile
+Map to show the nearest mental health/crisis centers ->Use google maps API
+Places to leave and create reviews for therapists t
+One stop place to download required forms 
 
-### `npm start`
+User roles
+2 main roles
+“General User”: They are the main  clients of the website and are using it for their own benefit in order to find resources that they may need in order to better their health 
+“Therapist/Mental health providers”: They can utilize the site in order to create profiles to match with clients and allow them to leave reviews based on their satisfaction
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+User Stories 
+As a general user, I want to create a profile using the survey 
+As a general user, I want to be able to navigate through the tabs to find resources 
+As a general user, I want to be able to click on the map to find the nearest crisis center to me
+As a general user I want to be able to scroll through therapists near my location based on reviews and matching profiles
+As a general user I want to be able to 
+As a mental health provider, I want to be able to see reviews left for me based on stars 
+As a mental health provider, I want to be able to create an account that will create a profile for me showing what I can offer as a therapist 
+As a menta
+Milestones
+Week 5: Create App Skeleton and UX for each of the pages and have the most of the  functioning front end portion of the website 
+Research and generate the survey questions in order to implement on the register page 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Week 6: 
+-Finalize the front end of the website 
+-Create the backend server for the login and register pages
 
-### `npm test`
+Use the Google Maps API in order to create an interactive Map 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Week 7: Have a fully functioning website and work out the kinks in the website
