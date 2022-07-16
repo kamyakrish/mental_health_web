@@ -1,3 +1,6 @@
+import Logo from '../../../Components/Logo /Logo'
+import Survey from '../../../Components/Survey/Survey'
+
 export default function Register(props) {
 
 
