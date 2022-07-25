@@ -1,10 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import * as Survey from "survey-react";
+import * as SurveyReact from "survey-react";
 import "./Survey.css";
-//import "survey-react/survey.css";
+import "survey-react/survey.css";
 
-function App() {
+export default 
+function Survey() {
   let json = {
     questions: [
       {
@@ -33,7 +34,7 @@ function App() {
       }
     ]
   };
-  var surveyRender = <Survey.Survey json={json} />;
+  var surveyRender = <SurveyReact.Survey json={json} />;
   return (
     <div className="App">
       <h1>SurveyJS react example</h1>
@@ -43,5 +44,3 @@ function App() {
   );
 }
 
-const rootElement = document.getElementById("root");
-ReactDOM.render(<App />, rootElement);

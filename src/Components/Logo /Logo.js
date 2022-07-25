@@ -5,10 +5,10 @@ const logo =require('../../../src/Images/mentalHealth.jpg');
 
 export default function Logo(){
     return (
-        <nav className="logo">
-      <img src={logo}/>
-      <h1>Mental Health Hub </h1>
-    </nav>
+        <div className="logo">
+      <img src={logo} width="500" height="auto"/>
+
+    </div>
   )
 
 }
